@@ -1,6 +1,8 @@
 .countries{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
 }
 .countries img {
     width: 200px;
@@ -8,7 +10,6 @@
 .country{
     background-color: lightblue;
     border: 2px solid goldenrod;
-    margin: 20px;
     padding: 20px;
     border-radius: 15px;
     text-align: center;

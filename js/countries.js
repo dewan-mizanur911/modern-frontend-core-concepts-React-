@@ -13,11 +13,12 @@ const displayCountries = countries => {
 }
 
 const getTheContainer = country => {
+    const { name, capital, flag } = country;
     return `
         <div class="country">
-        <p>Name : ${country.name}</p>
-        <p> Captial : ${country.capital}</p>
-        <img src="${country.flag}">
+        <p>Name : ${name}</p>
+        <p> Captial : ${capital}</p>
+        <img src="${flag}">
         </div>
     `;
 }
